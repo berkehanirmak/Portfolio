@@ -1,0 +1,37 @@
+.footer {
+  background-color: tomato; /* Footer arka plan rengi */
+  color: #fff; /* Yazı rengi */
+  padding: 80px; /* İçeriğin etrafındaki boşluk */
+  border-radius: 10px;
+  margin: 25px 0 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  .footer-links {
+      list-style: none; /* Liste işaretlerini kaldır */
+      padding: 0; /* Liste içeriğindeki boşlukları kaldır */
+      margin: 0; /* Footer içeriğindeki boşlukları kaldır */
+      display: flex; /* Bağlantıları yatay olarak sırala */
+      gap: 20px; /* Bağlantılar arasında boşluk bırak */
+
+      li {
+          a {
+              color: #fff; /* Bağlantı rengi */
+              font-size: 74px; /* Bağlantı font büyüklüğü */
+              text-decoration: none; /* Bağlantı altı çizgisi kaldır */
+              transition:1s ;
+
+              &:hover {
+                  color: #5a76dc; /* Fare üzerine gelindiğinde bağlantı rengi */
+              }
+          }
+      }
+  }
+  p {
+    margin-top: 20px; /* Paragraf üst kısmında bir boşluk bırak */
+    font-size: 25px; /* Paragraf font büyüklüğü */
+    color: #ffffff;
+}
+}
